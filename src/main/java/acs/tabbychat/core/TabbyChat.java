@@ -591,7 +591,7 @@ public class TabbyChat {
         List<String> filterTabs = new ArrayList<String>(20);
         String channelTab = null;
         String pmTab = null;
-        //toTabs.add("*");
+        toTabs.add("*");
 
         IChatComponent raw = theChat.getChatComponent();
         IChatComponent filtered = this.processChatForFilters(raw, filterTabs);
