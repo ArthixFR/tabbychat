@@ -890,7 +890,7 @@ public class TabbyChat {
         File parentDir = TabbyChatUtils.getServerDir();
         if (make && !parentDir.exists())
             parentDir.mkdirs();
-        chanDataFile = new File(parentDir, pName + "_chanData.ser");
+        chanDataFile = new File(parentDir, "chanData.ser");
     }
 
     /**
